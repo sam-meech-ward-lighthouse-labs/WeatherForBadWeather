@@ -13,6 +13,8 @@
 		22EE02451FA39210000914DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EE02431FA39210000914DB /* Main.storyboard */; };
 		22EE02481FA39210000914DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE02471FA39210000914DB /* main.m */; };
 		22EE02531FA39210000914DB /* WeatherAppForBadWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE02521FA39210000914DB /* WeatherAppForBadWeatherTests.m */; };
+		22EE025F1FA397FF000914DB /* WeatherDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE025E1FA397FF000914DB /* WeatherDetailsViewController.m */; };
+		22EE02611FA3980E000914DB /* WeatherDeailts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EE02601FA3980E000914DB /* WeatherDeailts.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,9 @@
 		22EE024E1FA39210000914DB /* WeatherAppForBadWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppForBadWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EE02521FA39210000914DB /* WeatherAppForBadWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherAppForBadWeatherTests.m; sourceTree = "<group>"; };
 		22EE02541FA39210000914DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EE025D1FA397FF000914DB /* WeatherDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherDetailsViewController.h; sourceTree = "<group>"; };
+		22EE025E1FA397FF000914DB /* WeatherDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherDetailsViewController.m; sourceTree = "<group>"; };
+		22EE02601FA3980E000914DB /* WeatherDeailts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeatherDeailts.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +89,11 @@
 				22EE023C1FA39210000914DB /* AppDelegate.m */,
 				22EE023E1FA39210000914DB /* ViewController.h */,
 				22EE023F1FA39210000914DB /* ViewController.m */,
+				22EE025D1FA397FF000914DB /* WeatherDetailsViewController.h */,
+				22EE025E1FA397FF000914DB /* WeatherDetailsViewController.m */,
 				22EE02411FA39210000914DB /* Assets.xcassets */,
 				22EE02431FA39210000914DB /* Main.storyboard */,
+				22EE02601FA3980E000914DB /* WeatherDeailts.storyboard */,
 				22EE02461FA39210000914DB /* Info.plist */,
 				22EE02471FA39210000914DB /* main.m */,
 				22EE02491FA39210000914DB /* WeatherAppForBadWeather.entitlements */,
@@ -185,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EE02421FA39210000914DB /* Assets.xcassets in Resources */,
+				22EE02611FA3980E000914DB /* WeatherDeailts.storyboard in Resources */,
 				22EE02451FA39210000914DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +214,7 @@
 			files = (
 				22EE02401FA39210000914DB /* ViewController.m in Sources */,
 				22EE02481FA39210000914DB /* main.m in Sources */,
+				22EE025F1FA397FF000914DB /* WeatherDetailsViewController.m in Sources */,
 				22EE023D1FA39210000914DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
