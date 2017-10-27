@@ -14,6 +14,10 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    
+    NSLog(@"The weather is still bad 😨");
+    NSLog(@"But maybe it will get better? 🤗");
+    NSLog(@"But that would 💩 on our brand");
 }
 
 
